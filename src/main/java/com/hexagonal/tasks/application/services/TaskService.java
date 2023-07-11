@@ -16,7 +16,7 @@ public class TaskService implements CreateTaskUseCase, DeleteTaskUseCase, Update
     private final DeleteTaskUseCase deleteTaskUseCase;
 
 
-    public TaskService(CreateTaskUseCase createTaskUseCase, RetrieveTaskUseCase retrieveTaskUseCase, UpdateTaskUseCase updateTaskUseCase, GetAdditionalTaskInfoUseCase getAdditionalTaskInfoUseCase, DeleteTaskUseCase deleteTaskUseCase) {
+    public TaskService(CreateTaskUseCase createTaskUseCase, RetrieveTaskUseCase retrieveTaskUseCase, UpdateTaskUseCase updateTaskUseCase, DeleteTaskUseCase deleteTaskUseCase, GetAdditionalTaskInfoUseCase getAdditionalTaskInfoUseCase ) {
         this.createTaskUseCase = createTaskUseCase;
         this.retrieveTaskUseCase = retrieveTaskUseCase;
         this.updateTaskUseCase = updateTaskUseCase;
